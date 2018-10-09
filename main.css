@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+
+.pageContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15vh;
+    border-bottom: 1px solid;
+}
+
+.headerDiv > div{
+    height: 100%;
+    width: 20%;
+}
+
+.headerDiv > div:nth-of-type(1) > img{
+    height: 100%;
+    width:100%;    
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+}
+
+.sideBarDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 20vw;
+    border-right: 1px solid;    
+}
+
+.sideBarDiv > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent{
+    height: 100%;
+    width: 100%;
+}
+
+.footerDiv{
+    height: 10vh;
+    border-top: 1px solid;
+}
+
+.sideBarDiv > div {
+    align-self: center;
+    border: 1px solid #303030;
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    display: block;
+    background: linear-gradient(to left, #4285f4 50%, #e0e0e0 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.5s ease-out;
+  }
+  
+  .sideBarDiv > div:hover{
+    background-position: right bottom;
+  }
+
+  .sideBarDiv > div > div {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: #303030;
+    transition: all 0.6s ease-out;
+    display: block;
+    font-weight: bold;
+  }
+.sideBarDiv > div > div:hover {
+  color: #e0e0e0;
+}
+
+/* just a simple ease of the link div's font color from 
+black to white on hover this should also be displayed as a block*/
+
+
+
+.button-container > a:hover {
+  color: #e0e0e0;
+}

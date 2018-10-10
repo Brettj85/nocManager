@@ -65,19 +65,19 @@ body{
     align-self: center;
     border: 1px solid #303030;
     border-radius: 3px;
-    width: 150px;
+    width: 140px;
     height: 30px;
     display: block;
-    background: linear-gradient(to left, #4285f4 50%, #e0e0e0 50%);
+    background: linear-gradient(to right, #4285f4 50%, #e0e0e0 50%);
     background-size: 200% 100%;
-    background-position: left bottom;
+    background-position: right bottom;
     transition: all 0.5s ease-out;
   }
   
   .sideBarDiv > div:hover{
-    background-position: right bottom;
+    background-position: left bottom;
     box-shadow: 5px 10px;
-    transform: translate(0, -10px);
+    transform: translate(-5px, -10px);
   }
 
   .sideBarDiv > div > div {

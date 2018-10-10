@@ -17,7 +17,7 @@ body{
 
 .headerDiv > div{
     height: 100%;
-    width: 15%;
+    width: 200px;
 }
 
 .headerDiv > div:nth-of-type(1) > img{

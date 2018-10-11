@@ -40,7 +40,7 @@ function calendarElements(current){
     else if (current === "training"){
         var ele_list = document.querySelectorAll(".training");
         var buttonChange = document.getElementById("trainingOrigin");
-        if (workScheduleCurrent === 0){
+        if (trainingCurrent === 0){
             for (var i = 0; i < ele_list.length; i++) {
 	            ele_list[i].style.display = "none";
                 buttonChange.className = "trainingStartDisable";
@@ -58,7 +58,7 @@ function calendarElements(current){
     else{
         var ele_list = document.querySelectorAll(".timeOff");
         var buttonChange = document.getElementById("timeOffOrigin");
-        if (workScheduleCurrent === 0){
+        if (timeOffCurrent === 0){
             for (var i = 0; i < ele_list.length; i++) {
 	            ele_list[i].style.display = "none";
                 buttonChange.className = "timeOffStartDisable";

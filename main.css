@@ -162,16 +162,26 @@ body{
     text-align: center;
 }
 
-#calendar > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1){
+.scheduleStart{
     color: mediumvioletred;
 }
-
-#calendar > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2){
+.scheduleStartDisable{
+    background-color: grey;
+}
+.trainingStart{
     color: mediumpurple;
 }
 
-#calendar > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3){
+.trainingStartDisable{
+    background-color: grey;
+}
+
+.timeOffStart{
     color: mediumspringgreen;
+}
+
+.timeOffStartDisable{
+    background-color: grey;
 }
 
 #calendar > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:hover{

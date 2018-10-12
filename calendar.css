@@ -20,7 +20,8 @@
     background-color: #4285f4;
     color: white;
     width: 100%;
-    text-align: center;    
+    text-align: center;  
+    font-size: 15px;  
 }
 
 #calendar > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2){
@@ -37,6 +38,7 @@
 }
 .scheduleStartDisable{
     background-color: grey;
+    color: white;
 }
 .trainingStart{
     color: mediumpurple;
@@ -44,6 +46,7 @@
 
 .trainingStartDisable{
     background-color: grey;
+    color: white;
 }
 
 .timeOffStart{
@@ -52,11 +55,12 @@
 
 .timeOffStartDisable{
     background-color: grey;
+    color: white;
 }
 
 #calendar > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:hover{
     background-color: black;
-    color: white;
+    
 }
 
 #calendar > div:nth-of-type(1) > div:nth-last-of-type(1){
@@ -81,7 +85,8 @@
     background-color: #4285f4;
     width: 100%;
     text-align: center;
-    color: white;    
+    color: white; 
+    font-size: 15px;   
 }
 
 #calendar > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2){
